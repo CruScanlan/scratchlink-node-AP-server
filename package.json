@@ -1,0 +1,22 @@
+{
+    "name": "scratchlink-node-AP-server",
+    "dependencies": {
+        "@types/express": "^4.17.7",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.6"
+    },
+    "scripts": {
+        "build": "tsc",
+        "run": "ts-node",
+        "start": "nodemon --watch src -e ts --exec \"ts-node ./src/index.ts\""
+    },
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "repository": "https://github.com/Cruzercru/scratchlink-node-AP-server.git",
+    "author": "Cru Scanlan <cruzercru@hotmail.com>",
+    "license": "MIT"
+}
